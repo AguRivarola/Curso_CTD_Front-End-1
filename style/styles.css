@@ -1,0 +1,45 @@
+body {
+    background-image: url(../images/2.jpg);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+/*      Header      */
+header{
+    font-size: 23px;
+    color:darkslateblue;
+}
+/*      Main        */
+h1 {
+    color:darkblue;
+    text-align: center;
+    font-size: 60px;
+    font-weight: bold;
+    font-style: oblique;
+}
+
+p {
+    font-family: verdana;
+    font-size: 20px;
+}
+h2{
+    color: darkolivegreen;
+    font-size: 45px;
+    font-weight: bold;
+    font-style: oblique;
+}
+/*      Footer      */
+
+
+/*    Links    */
+
+a:link, a:visited {
+    background-color:darkcyan;
+    color: white;
+    padding: 15px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+a:hover, a:active {
+    background-color: darkblue; }

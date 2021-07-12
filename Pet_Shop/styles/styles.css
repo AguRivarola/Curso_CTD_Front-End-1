@@ -1,0 +1,66 @@
+/*   Clases generales  */
+.wl{    /*letra blanca */
+    color: blanchedalmond;
+}
+.lm{    /* margen izquierdo*/
+    text-align-last: left;
+}
+.c{     /* Centrado*/
+  text-align-last: center;
+}
+p{
+    text-align: center;
+}
+/*  Header  */
+#barra-superior {
+  background-color: black;
+}
+
+#barra-menu-principal {
+  background-color: orange;
+}
+/*   Body    */
+#banner {
+    background-position: left;
+  background-image: url(../images/bowl-and-pet-background\ 1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.img{
+    align-content: center;
+}
+
+/*      Footer       */
+footer {
+  background-color: black;
+}
+
+
+
+
+/*    Links    */
+
+a:link {
+  color: green;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: pink;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: red;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:active {
+  color: yellow;
+  background-color: transparent;
+  text-decoration: underline;
+}
