@@ -12,6 +12,7 @@ main{
 }
 h1,h2{
     color: #005677;
+    letter-spacing: 2px;
 }
 
 /*  Header  */
