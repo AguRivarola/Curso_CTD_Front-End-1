@@ -30,14 +30,24 @@ p{
 .img{
     align-content: center;
 }
+i{
+  margin: 5px;
+}
+#redes{
+  background-color: #3c2313;
+
+}
+#redes h3{
+  color: #fff;
+}
+#redes p{
+  color: #8A8787;
+}
 
 /*      Footer       */
 footer {
   background-color: black;
 }
-
-
-
 
 /*    Links    */
 

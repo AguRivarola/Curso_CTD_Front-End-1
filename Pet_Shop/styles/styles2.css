@@ -1,0 +1,70 @@
+/*          Body            */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+body{
+    font-family: 'Roboto', sans-serif;
+    width: 1025px;
+}
+h2{
+    font-weight: 700;
+}
+h3{
+    font-weight: 500;
+}
+h4{
+    font-weight: 400;
+}
+p.money{
+    color: orange;
+}
+/*          Header          */
+header{
+    color: white;
+}
+
+/*  ---     id - clases header  ---     */
+#barra-superior {
+    background-color: rgb(0, 0, 0);
+  }
+#barra-menu-principal{
+    background-color: orange;
+}
+/*          Main            */
+
+/*  ---     id - clases main ---     */
+#banner{
+    background-image: url(../images/bowl-and-pet-background\ 1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 410px;
+    margin-top: 50px;
+    position: absolute;
+    text-align: center;
+    width: 1025px;
+    
+}
+
+#productos img.logo{
+    margin-top: 510px;
+    margin-left: 512px;
+}
+#productos h2{
+    font-weight: bold;
+}
+
+#redes {
+    background-color: #3C2313;
+    color: white;
+}
+#redes p{
+    color: grey;
+}
+
+
+/*          Footer          */
+footer{
+    background-color: orange;
+    color: white;
+    text-align: center;
+}
+
+/*  ---     id - clases footer  ---     */
