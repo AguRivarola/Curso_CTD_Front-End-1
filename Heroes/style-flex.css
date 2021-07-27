@@ -36,7 +36,7 @@ header h1{
 }
 /* ===Main=== */
 main{
-    margin: 153px 32px 85px;
+    margin: 153px 32px 153px;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
