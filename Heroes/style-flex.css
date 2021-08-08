@@ -10,13 +10,16 @@ body{
     box-sizing: border-box;
 }
 a{
-    display: flex;
+    background-color:#00669F ;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    bottom: 1rem;
+    color: #fff;
+    position: absolute;
     text-decoration: none;
-    justify-content: center;
-    margin: auto;
-    margin-bottom: 0px;
-    height: 50px;
-    width: 130px;
+    text-align: center;
+    margin: 10px auto;
+    padding: 20px 30px;
+    right: 30%;
 }
 /* ===Header=== */
 div{
@@ -41,17 +44,24 @@ main{
     flex-direction: row;
     justify-content: space-around;
     align-items:center;
+    flex-wrap: wrap;
 
 }
 article{
     position: relative;
     background: #F3F3F3;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    border-radius: 16px 16px 16px 16px ;
+    border-radius: 16px;
     text-align: center;
-    height: 530px;
+    height: 600px;
     width: 300px;
+    margin: 15px 10px;
 
+}
+article img{
+    width: 100%;
+    height: 193px;
+    border-radius: 16px;
 }
 article  div{
     display: flex;
@@ -63,18 +73,20 @@ article  div{
     height: 50px;
 }
 article h2 {
-    margin: 74px 0px 10px;
+    margin: 45px 0px 10px;
 }
 article p{
-    box-sizing: content-box;
+    box-sizing:border-box;
     padding: 10px;
-    margin: 10px 0px 32px;
+    margin: auto 5px;
 }
 article .Face{
     border-radius: 50% 50%;
     position: absolute;
     left:30%;
     top: 20%;
+    width: 120px;
+    height: 120px;
 }
 article i.fas{
     position: absolute;
@@ -87,5 +99,25 @@ article i.fas{
 /* ===Footer=== */
 footer{
     background-color: #00669F;
+    text-align: center;
+    color: #fff;
+    padding: 5px;
+
+}
+footer i{
+    position: absolute;
+    right: 0;
 }
 
+@media (max-width: 768px) {
+    /*  Tablets  */
+    main{
+    flex-wrap: wrap;
+    }
+}
+@media (max-width: 460px) {
+    /*  Mobiles  */
+    main{
+        flex-wrap: wrap;
+        }
+}

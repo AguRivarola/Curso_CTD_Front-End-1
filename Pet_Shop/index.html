@@ -16,13 +16,13 @@
 <body>
   <header>
     <div class="ofertas">
-    <span>Grandes Ofertas de comederos</span>
+      <span>Grandes Ofertas de comederos</span>
     </div>
     <div class="edit_page">
-    <span class="idioma">
-      Español<i class="fas fa-chevron-down"></i>
-    </span>
-    <span class="moneda">ARG$ <i class="fas fa-chevron-down"></i></span>
+      <span class="idioma">
+        Español<i class="fas fa-chevron-down"></i>
+      </span>
+      <span class="moneda">ARG$ <i class="fas fa-chevron-down"></i></span>
     </div>
     <h1>PET SHOP</h1>
   </header>
@@ -38,18 +38,22 @@
       <a href=""><i class="fas fa-paw"></i> Contactanos</a>
     </div>
   </nav>
-  </header>
   <main>
-    <section id="banner">
-      <h4>¡Es un placer tenerte aquí!</h4> <!-- h4 para letra 400px-->
-      <p>¡Comederos en descuento!</p>
-      <button onclick="document.location='#productos'">Comederos</button>
+    <section class="banner">
+      <div class ="banner_text">
+        <span>¡Es un placer tenerte aquí!</span> <!-- h4 para letra 400px-->
+        <span>¡Comederos en descuento!</span>
+        <span>comederos</span>
+      </div>
       <!--Boton-->
     </section>
+
+    <br><br>
     <section id="productos">
-      <img class="logo" src="images/pawprint 1.png" alt="imagen patita de perro" />
+      <p><i class="fas fa-paw fa-2x"></i></p>
       <h2>Productos Destacados</h2> <!-- h2 con 700px-->
-      <p>Comederos - Accesorios - Comida</p>
+      <p><a href="">Comederos</a>  - <a href="">Accesorios</a> - <a href="">Comida</a></p>
+      <div class="product_conteiner">
       <article id="producto-1">
         <img src="images/churrasquito.jpg" alt="Jueguete churrasquito" title="Producto 1" />
         <h3>Jueguete churrasquito</h3> <!-- h3 con 500px-->
@@ -65,6 +69,7 @@
         <h3>Jueguete Huesito</h3>
         <p class="money">$650</p>
       </article>
+    </div>
     </section>
     <section id="redes">
       <img src="./images/Gps.png" alt="Ubicación">

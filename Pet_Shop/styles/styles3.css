@@ -10,6 +10,7 @@ body{
     font-style: normal;
     font-weight: normal;
     font-size: 1em;
+    box-sizing: border-box;
 }
 a{
     text-decoration: none;
@@ -40,6 +41,8 @@ h1{
 nav{
     background: #F0A83E;
     display: flex;
+    position: sticky;
+    top: 0;
     justify-content: space-between;
     align-items: center;
     height: 4rem;
@@ -57,9 +60,65 @@ div.categorias{
     box-sizing: border-box;
 }
 /*          ====Main====             */
-section#banner{
+.banner{
     background-image: url(../images/bowl-and-pet-background\ 1.jpg);
     background-size: contain;
-    height: 260px;
+    height: 39.6vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
     
 }
+div.banner_text{
+    height: 16vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px 10vh;
+}
+.banner_text :nth-child(1){
+    background-color: #fff;
+    width: 30vw;
+    text-align: center;
+    font-weight: bold;
+    font-size: 2rem;
+    padding: 10px;
+    border-radius: 5px;
+}
+.banner_text :nth-child(2){
+    color: #3C2313;
+}
+.banner_text :nth-child(3){
+    background-color: #F0A83E;
+    color: #ffff;
+    padding: 20px;
+    font-size: 1.3rem;
+    text-transform: capitalize;
+}
+
+section#productos{
+    display: flex;
+    flex-flow: column ;
+    justify-content: center;
+    align-items: center;
+
+}
+#productos i{
+    font-size: 15vw;
+    -webkit-text-stroke: 0.6vw #F0A83E;
+    color: rgba(0, 0, 0, 0);
+}
+#productos h2{
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+#productos div{
+    display: flex;
+}
+#productos a{
+    color: gray;
+}
+
