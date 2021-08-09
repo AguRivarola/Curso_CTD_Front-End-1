@@ -76,7 +76,7 @@ div.banner_text{
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    margin: 0px 10vh;
+    margin: 0px 10vw;
 }
 .banner_text :nth-child(1){
     background-color: #fff;
@@ -89,6 +89,7 @@ div.banner_text{
 }
 .banner_text :nth-child(2){
     color: #3C2313;
+    margin: 3vw;
 }
 .banner_text :nth-child(3){
     background-color: #F0A83E;
@@ -103,7 +104,7 @@ section#productos{
     flex-flow: column ;
     justify-content: center;
     align-items: center;
-    margin: 5vh;
+    margin: 5vw;
 
 }
 #productos i{
@@ -130,7 +131,7 @@ div.product_conteiner{
 }
 article{
     width: 25vw;
-    margin: 15vh 0vw;
+    margin: 15vw 0vw;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -138,18 +139,18 @@ article{
     box-shadow: 0px 10px 20px rgba(200, 200, 200, 1);
 }
 article img{
-    margin: 8vh;
+    margin: 7vw;
     width: 23vw;
     box-shadow: 0px 1px rgba(200, 200, 200, 1);
 }
 article>h3{
-    font-size: 2.5vh;
+    font-size: 2.5vw;
     font-weight: bold;
 
 }
 .money{
     color: #F0A83E;
-    margin: 2vh;
+    margin: 2vw;
 }
 
 /*              ======= footer =======                   */
@@ -179,15 +180,15 @@ div.info{
     justify-content: space-around;
 }
 .info h3{
-    margin: 1vh 0%;
+    margin: 1vw 0%;
     color: ghostwhite;
     font-weight: bold;
-    font-size: 3vh;
+    font-size: 1.2vw;
 }
 .info p{
     color: gray;
 
-    margin: 1vh 0%;
+    margin: 1vw 0%;
 }
 div.icons{
     order: -1;
@@ -198,23 +199,150 @@ div.icons{
 div.icons i{
     box-sizing: content-box;
     text-align: center;
-    width: 4vh;
-    height: 4vh;
-    margin: 1vh;
+    width: 2vw;
+    height: 2vw;
+    margin: 2vw;
     color: honeydew;
-    font-size: 4vh;
+    font-size: 3vw;
     background-color: gray;
-    padding: 2vh;
+    padding: 2vw;
     border-radius: 100%;
-    box-shadow: 0px 0px 0px 1vh rgba(174, 174, 174,0.4);
+    box-shadow: 0px 0px 0px 1vw rgba(174, 174, 174,0.4);
 }
 footer div img{
-    margin: 15vh 20vh;
+    margin: 10vw 20vw;
 }
 footer>p{
     background-color: #222222;
     color: #F3F3F3  ;
     text-align: center;
     font-weight: bold;
-    padding: 1vh;
+    font-size:1vw;
+    padding: 1vw;
 }
+section#subscribe{
+    background-color: #F0A83E;
+    height: 6vw;
+}
+@media  screen and (max-width: 768px) {
+    .banner{
+        justify-content: space-around;
+    }
+    div.banner_text{
+        justify-content: space-around;
+        margin: 0px 7vw;
+    }
+    .banner_text :nth-child(1){
+        width: 45vw;
+        font-size: 1.5rem;
+    }
+
+    /*      ===Main/ productos===            */
+    div.product_conteiner{
+        
+    }
+    article{
+        width: 31%;
+        height: 13%;
+        margin: 8vw 0px;
+    }
+    article>h3{
+        font-size: 2.5vw;
+    }
+    /*      ==== footer ==== */
+    section#redes{
+        justify-content: space-around ;
+    }
+    div.f_left{
+        width: 45vw;
+        justify-content:space-evenly;
+    }
+    div.icons i{
+        width: 2.7vw;
+        height: 2.7vw;
+        margin: 1.5vw 5vw;
+        font-size: 4vw;
+        padding: 2vw;
+    }
+    div.info{
+    
+        box-sizing: border-box;
+        width: 100%;
+        display: flex;
+        flex-flow: column;
+        justify-content: space-around;
+    }
+    .info h3{
+        margin: 1vw 0%;
+        font-size: 2.5vw;
+    }
+    footer div img{
+        margin: 15vw 10vw;
+    }
+    footer>p{
+        font-weight: bold;
+        font-size: 2vw;
+        padding: 1vw;
+    }
+}
+@media  screen and (max-width: 480px) {
+    header{
+        display: none;
+    }
+    div.categorias{
+        display: none;
+    }
+    nav::after{
+        content: "\f0c9";
+        position: absolute;
+        right: 60px;
+        font-family: "Font Awesome 5 Free";
+        font-weight: 900;
+        color: white;
+        font-size: 2rem;
+        z-index: 100;
+    }
+    .banner{
+        background-size: cover;
+        background-position: -11vw;
+        height: 100vw;
+        flex-direction: column;
+        justify-content: flex-end;
+        align-items: center;
+        
+    }
+    div.banner_text{
+        height: 50%;
+        width: 65%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 0px 3vw;
+    }
+    .banner_text :nth-child(1){
+        width:  100%;
+        font-size: 5vw;
+        padding: 2vw;
+    }
+    .banner_text :nth-child(2){
+        background-color: lemonchiffon;
+        padding: 1vw;
+        margin: 2vw;
+    }
+    .banner_text :nth-child(3){
+        padding: 3vw;
+        font-size: 3vw;
+    }
+    div.product_conteiner{
+        flex-flow: column;
+        align-items: center;
+    }
+    article{
+        width: 50%;
+    }
+    article>img{
+        width: 100%;
+    }
+
+    }
