@@ -49,8 +49,6 @@
       </div>
       <!--Boton-->
     </section>
-
-    <br><br>
     <section id="productos">
       <p><i class="fas fa-paw fa-2x"></i></p>
       <h2>Productos Destacados</h2> <!-- h2 con 700px-->
@@ -74,18 +72,27 @@
       </div>
     </section>
     <section id="form">
-      <div>Contactanos</div>
-      <div>nombre</div>
-      <div>Mail</div>
-      <div>Tel</div>
-      <div class="buttons">restablecer    Enviar</div>
+      <h2>Contáctanos</h2>
+      <form name="contactanos" method="post">
+        <input id="name" type="text" name="name" placeholder="Nombre y Apellido">
+        <input id="mail" type="email" name="mail" placeholder="Ingresa tu E-mail">
+        <input id="tel" type="text" name="tel" placeholder="Teléfono">
+        <div class="form__btn--div">
+          <input class="form__btn-1" type="reset" value="Resetear">
+          <input class="form__btn-2" type="submit" value="Enviar">
+        </div>
+      </form>
     </section>
   </main>
 
 
   <footer>
     <section id="subscribe">
-      <span>subscribete para más novedades</span>
+      <span>Subscribete para más novedades!!</span>
+      <form  method="post">
+        <input type="email" name="mail_sub" id="mail_sub">
+        <input type="submit" value="Subscribirse">
+      </form>
     </section>
     <section id="redes">
       <div class="f_left">
